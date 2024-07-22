@@ -1,4 +1,4 @@
-package br.org.gestao.hermes.entities;
+package hermes.entities;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

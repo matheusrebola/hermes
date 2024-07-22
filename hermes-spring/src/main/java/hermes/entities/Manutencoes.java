@@ -1,4 +1,4 @@
-package br.org.gestao.hermes.entities;
+package hermes.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

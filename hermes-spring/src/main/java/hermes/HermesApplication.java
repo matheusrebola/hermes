@@ -1,4 +1,4 @@
-package br.org.gestao.hermes;
+package hermes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
