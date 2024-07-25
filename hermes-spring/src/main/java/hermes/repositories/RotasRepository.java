@@ -1,13 +1,13 @@
-package hermes.repositorys;
+package hermes.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import hermes.entities.Relatorios;
+import hermes.entities.Rotas;
 
 @Repository
-public interface RelatoriosRepository extends JpaRepository<Relatorios, UUID> {
+public interface RotasRepository extends JpaRepository<Rotas, UUID> {
 
 }

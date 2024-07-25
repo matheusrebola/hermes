@@ -1,13 +1,13 @@
-package hermes.repositorys;
+package hermes.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import hermes.entities.Motoristas;
+import hermes.entities.Otimizacoes;
 
 @Repository
-public interface MotoristasRepository extends JpaRepository<Motoristas, UUID> {
+public interface OtimizacoesRepository extends JpaRepository<Otimizacoes, UUID> {
 
 }

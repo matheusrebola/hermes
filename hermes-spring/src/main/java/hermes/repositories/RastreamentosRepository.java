@@ -1,4 +1,4 @@
-package hermes.repositorys;
+package hermes.repositories;
 
 import java.util.UUID;
 
