@@ -1,5 +1,12 @@
 package hermes.dtos;
 
-public class VeiculosCreateDto {
+import hermes.entities.StatusVeiculo;
+
+public record VeiculosCreateDto (
+		String placa,
+		String modelo,
+		String ano,
+		String fabricante,
+		StatusVeiculo statusVeiculo) {
 
 }

@@ -1,5 +1,8 @@
 package hermes.dtos;
 
-public record EmpresaCreateDto() {
+public record EmpresaCreateDto(
+		String nome,
+		String endereco,
+		String email) {
 
 }

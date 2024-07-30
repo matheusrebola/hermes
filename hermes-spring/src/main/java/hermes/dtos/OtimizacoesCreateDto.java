@@ -1,5 +1,12 @@
 package hermes.dtos;
 
-public record OtimizacoesCreateDto() {
+import hermes.entities.StatusMotorista;
+
+public record OtimizacoesCreateDto(
+		String nome,
+		String cnh,
+		String telefone,
+		String email,
+		StatusMotorista statusMotorista) {
 
 }
